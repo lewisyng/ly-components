@@ -38,11 +38,11 @@ export default [
                 modules: true,
                 use: ['sass'],
             }),
-            // url({
-            //     include: ['**/*.woff', '**/*.woff2', '**/*.ttf'],
-            //     limit: Infinity,
-            //     fileName: '[dirname][name][extname]',
-            // }),
+            url({
+                include: ['**/*.woff', '**/*.woff2', '**/*.ttf'],
+                limit: Infinity,
+                fileName: '[dirname][name][extname]',
+            }),
             typescript({
                 tsconfig: './tsconfig.json',
                 exclude: ['**/*.stories.tsx'],
