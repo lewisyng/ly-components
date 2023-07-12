@@ -1,2 +1,2 @@
-export * from './Button';
-export * from './Typography';
+export { default as Button } from './Button';
+export { default as Typography } from './Typography';
