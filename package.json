@@ -1,6 +1,6 @@
 {
     "name": "ly-comps",
-    "version": "1.0.9",
+    "version": "1.0.10",
     "description": "",
     "source": "src/index.ts",
     "main": "dist/main.js",
@@ -14,7 +14,8 @@
         "watch": "parcel watch",
         "build": "parcel build",
         "storybook": "storybook dev -p 6006",
-        "build-storybook": "storybook build"
+        "build-storybook": "storybook build",
+        "pub": "npm run build && npm version patch && npm publish"
     },
     "author": "",
     "license": "ISC",
