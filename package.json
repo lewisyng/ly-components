@@ -1,11 +1,20 @@
 {
     "name": "ly-comps",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "description": "",
     "source": "src/index.ts",
     "main": "dist/main.js",
+    "css": "dist/style.css",
     "module": "dist/module.js",
     "types": "dist/types.d.ts",
+    "targets": {
+        "main": {
+          "source": "src/index.ts"
+        },
+        "css": {
+          "source": "src/index.scss"
+        }
+      },
     "files": [
         "dist"
     ],
